@@ -1,0 +1,69 @@
+        <div className={styles.body}>
+        <h4>Timesheet Entry</h4> 
+        <br/>
+        <div className={styles.parent}>
+        <div className={styles.child}>
+           
+            <label>Select the site:</label>
+            <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </select>
+            <br/>
+            <label>Select the shift:</label>
+            <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </select>
+            
+            </div>
+            <div className={styles.child}>
+            <label>Shift Employees:</label>
+            <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter PFID:" aria-label="Enter PFID:" aria-describedby="button-addon2"></input>
+            <button class="btn btn-outline-success" type="button" id="button-addon2"><i class="bi bi-plus-circle-fill"></i> Add</button>
+            </div>
+            <br/>
+            <div className={styles.table}>
+            <table class="table table-hover">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">PFID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td><a href="" style={{ color: 'red' }}><i class="bi bi-trash-fill"></i></a></td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td><a href=""><i class="bi bi-trash-fill"></i></a></td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Larry the Bird</td>
+                <td>Thornton</td>
+                <td><a href=""><i class="bi bi-trash-fill"></i></a></td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            </div>
+            </div>
+            <div>
+            <button type="button" class="btn btn-outline-success">Submit</button>
+            <button type="button" class="btn btn-outline-danger">Cancel</button>
+            </div>
+            </div>
